@@ -1,0 +1,29 @@
+Algoritmo "026"
+// 26) Escreva um algoritmo que leia dois números inteiros e compare-os, mostrando
+// na tela uma das mensagens abaixo:
+// - O primeiro valor é o maior
+// - O segundo valor é o maior
+// - Não existe valor maior, os dois são iguais
+Var
+
+
+   primeiroNum, segundoNum: inteiro
+
+Inicio
+
+      Escreva("Digite o primeiro número: ")
+      leia(primeiroNum)
+      Escreva("Digite o segundo número: ")
+      leia(segundoNum)
+      
+      Se (primeiroNum > segundoNum) entao
+         Escreva("O primeiro valor é o maior")
+      Senao
+           Se (segundoNum > primeiroNum) entao
+              Escreva("O segundo valor é o maior!")
+           Senao
+                Escreva("Não existe valor maior, os dois são iguais!")
+           FimSe
+      FimSe
+      
+Fimalgoritmo
