@@ -7,26 +7,26 @@ Algoritmo "044"
 // Contagem: 3 5 7 9 Acabou!
 Var
 
-   primeiroValor, ultimoValor, incremento, contador: inteiro
-
+   valorInicial, ultimoValor, incremento, contador: inteiro
+   
 Inicio
 
-
-      Escreva("Digite o primeiro valor: ")
-      leia(primeiroValor)
-      Escreva("Digite o último valor: ")
+      EscrevaL("Digite o primeiro valor: ")
+      leia(valorInicial)
+      EscrevaL("Digite o último valor: ")
       leia(ultimoValor)
-      Escreva("Digite o incremento: ")
+      EscrevaL("Digite o incremento: ")
       leia(incremento)
-
-      contador <- primeiroValor
-
       
-      enquanto (contador <= ultimoValor) ou (contador >= ultimoValor) faca
-               escreva(contador)
+      contador <- valorInicial
+      
+      enquanto contador <= ultimoValor faca
+      
+               escrevaL(contador)
                contador <- contador + incremento
       fimenquanto
       
-      Escreva(" Acabou!")
+      escrevaL("Acabou!")
+
 
 Fimalgoritmo
